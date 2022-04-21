@@ -1,0 +1,54 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/gabyduo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/*Acerca de mi*/
+
+#Acerca-de-mi {
+  scroll-margin-top: 20vh;
+}
+
+
+/* Mis trabajos */
+
+#Mis-trabajos {
+  scroll-margin-top: 10vh;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto {
+  scroll-margin-top: 18vh;
+}
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
